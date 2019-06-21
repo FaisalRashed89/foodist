@@ -1,0 +1,112 @@
+/*font is Latao for the whole document*/
+html {
+    margin: 40px 100px;
+    font-family: 'Lato', sans-serif;
+}
+section{
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 50px;
+}
+section span{
+  font-size: 30px;
+}
+/*a href on hover cool feature  */
+a:hover{
+  color: purple;
+}
+img{
+  width: 100%;
+}
+/*h1 a href*/
+h1 a{
+    font-size: 60px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #FF0000;
+}
+h2 a{
+    font-size: 25px;
+    font-weight: 300px;
+    text-decoration: none;
+    color: black;
+}
+p + span {
+  color: grey;
+  font-size: 120px;
+  font-weight: 100;
+}
+h3{
+  font-size: 40px;
+  font-weight: 300;
+}
+header ul {
+  padding: 0px;
+}
+header ul li{
+  color: grey;
+  border-bottom: 2px solid;
+  margin-left: 10px;
+  padding: 10px;
+  display: inline-block;
+  justify-content: space-between;
+  font-weight: 300;
+  font-size:25px;
+  margin-bottom:30px;
+  margin-top:15px;
+  list-style: none;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: grey;
+}
+section > span{
+  color: grey;
+}
+section + p{
+  color: black;
+}
+/*Next a href coloring*/
+section  a{
+  color: #FF0000;
+  margin-top: -40px;
+  float: right;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*the line between the two sections*/
+section p{
+  margin-bottom: 50px;
+}
+section p::first-letter{
+  display: block;
+  float: left;
+  padding-right: 6px;
+  margin-top: -15px;
+  color: #ddd;
+  font-size: 95px;
+  font-weight: 300;
+}
+footer nav ul li{
+  display: inline-block;
+  font-weight: 300;
+  font-size:20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid grey;
+}
+footer nav ul{
+  padding-left: 0;
+}
+footer nav ul li > a{
+  text-decoration: none;
+  color: #FF0000;
+}
+footer nav ul li:last-child > a{
+  border: none;
+}
+/*span in footer*/
+footer span{
+  color: grey;
+}
